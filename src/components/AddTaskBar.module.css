@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.addTaskBar{
+    width: 46rem;
+}
+
+.taskBar{
+    height: 3,375rem;
+    display: flex;
+    position: relative;
+    top: -2rem;
+}
+
+form > textarea{
+    padding: 1rem 1rem 0rem;
+    margin-right: 0.5rem;
+    width: 46rem;
+    background: var(--gray-500);
+    border: 0;
+    resize: none;
+    color: var(--gray-100);
+    border-radius: 8px;
+
+    font-size: 1rem;
+}
+
+form > button{
+    padding: 1rem;
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form > button:hover{
+    background-color: var(--blue);
+
+    transition: background-color 0.2s;
+}
+
+.icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.invi{
+    display: none;
+}
+
+
+/* tasks */
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.noTasks{
+    padding-top: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.noTasks>img{
+    height: 4rem;
+}
+
+.noTasks>div>strong{
+    color: var(--gray-300);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.noTasks>div>div>span{
+    color: var(--gray-300);
+    font-size: 1rem;
+}
+
+.noTasks>div>div{
+margin-top: 0.5rem;
+display: flex;
+justify-content: center;
+}
